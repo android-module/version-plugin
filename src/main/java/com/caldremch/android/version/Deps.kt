@@ -95,8 +95,8 @@ object Deps {
     const val entry_compiler = "com.caldremch.android:entry-compiler:1.5.1"
 
     //支持result register
-    const val activity = "androidx.activity:activity-ktx:1.2.0-rc01"
-    const val fragment = "androidx.fragment:fragment-ktx:1.3.0-rc01"
+    const val activity = "androidx.activity:activity-ktx:1.3.1"
+    const val fragment = "androidx.fragment:fragment-ktx:1.3.6"
 
     /**
      * 添加默认的maven url
