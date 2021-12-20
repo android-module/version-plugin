@@ -91,8 +91,9 @@ object Deps {
     const val javapoet = "com.squareup:javapoet:1.10.0"
     const val kotlin_stdlib_jdk8 = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:jdk8-$kotlin_version"
 
-    const val entry = "com.caldremch.android:entry:1.5.0"
-    const val entry_compiler = "com.caldremch.android:entry-compiler:1.5.1"
+    private const val entry_version = "1.6.2"
+    const val entry = "io.github.caldremch:entry:$entry_version"
+    const val entry_compiler = "io.github.caldremch:entry-compiler:$entry_version"
 
     //支持result register
     const val activity = "androidx.activity:activity-ktx:1.3.1"
